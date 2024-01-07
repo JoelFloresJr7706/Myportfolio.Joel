@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Joel Flores Jr. Portfolio (Kennjiee) </title>
+        <link rel="stylesheet" href="styles.css">
+        
+        <script src="https://kit.fontawesome.com/e0ba072990.js" crossorigin="anonymous"></script>
+    </head>
+<body>
+        <div id="header">
+            <div class="container"> 
+                <nav> 
+                    <img src="Images/logo.png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#Services">Services</a></li>
+                        <li><a href="#Work">Portfolio</a></a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-arrow-left" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+            <div class="header-text">
+                <p>Graphic Designer</p>
+                <h2>Helloe! I am <span>Joel Flores Jr.</span><br>
+                    A TVL-ICT Student in Doña Carmen Denia National High School.</h2>
+            </div>
+            </div>
+        </div>
+
+<!-------------about-------------->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="Images/user.jpg">
+                    </div>
+                    
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        Provident recusandae, odit sit totam harum tenetur! 
+                        Rerum laborum repudiandae cumque nostrum labore totam voluptates sed, sunt odio error facere animi nulla?</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/Graphic Designing</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>Photographic Development</span><br>Digital Photography/Android Photography </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>School-Project Purposes ONLY</span><br>School Projects</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>Educational Purposes ONLY</span><br>Finished TVL-ICT Animation/Programming<br>and an NC-II completer</li>
+                        </ul>
+                        
+                    </div>
+                    </div>
+                    <a href="Images/my-cv.jpg" download class="btn btn2">Download CV</a>
+                </div>
+                
+            </div>
+            
+        </div>
+<!-------------services--------- -->
+ <div id="Services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, perferendis itaque veniam dicta unde exercitationem in beatae. Minus numquam velit laborum eaque. Dolorum autem deserunt magnam quam, minima fuga nihil.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-mobile"></i>
+                <h2>App Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, perferendis itaque veniam dicta unde exercitationem in beatae. Minus numquam velit laborum eaque. Dolorum autem deserunt magnam quam, minima fuga nihil.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-pen-nib"></i>
+                <h2>Graphics Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, perferendis itaque veniam dicta unde exercitationem in beatae. Minus numquam velit laborum eaque. Dolorum autem deserunt magnam quam, minima fuga nihil.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+ </div>
+<!---------------Work--------------- -->
+
+ <div id="Work">
+    <div class="container">
+        <h1 class="sub-title">My Works</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Images/work-1.jpg">
+                <div class="layer">
+                    <h3>Web Design</h3>
+                    <p>For educational purposes only.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/work-2.png">
+                <div class="layer">
+                    <h3>Graphic Design</h3>
+                    <p>For educational purposes only.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/work-3.png">
+                <div class="layer">
+                    <h3>Digital Photography</h3>
+                    <p>For educational purposes only.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+ </div>
+ <!-------------contact------------ -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> joelfloresjr.7706@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> (+63)968-666-5577</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/ghinost080908"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/itsme.kennjie?igsh=MWx0a2N0bGhpbG5vcA=="><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.telegram.me/contact/1704438073:tKEyy7q97CW8d7vX"><i class="fa-brands fa-telegram"></i></a>
+                    <a href="https://www.tiktok.com/@ken.jiee2?_t=8im0qI1lSsc&_r=1"><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+                
+            </div>
+            <div class="contact-right">
+                <Form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </Form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+        
+    <script>
+
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemeu.style.right = "0";
+        }
+        function closemenu(){
+            sidemeu.style.right = "-200px";
+        }
+
+    </script>
+     <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbyY_qKel19X34Y2EmQFI8jFVEhCA6_0V10pr4En7DOCpDMCkjeizArnIQcAnzJpTK3e/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent succesfully"
+        setTimeout(function(){
+            msg.innerHTML = ""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+    </body>
+</html>
