@@ -62,7 +62,7 @@ nav ul li a:hover::after{
 .header-text{
     color:#ffffff;
     text-shadow: 3px 3px 5px #000000;
-    margin-top: 10%;
+    margin-top: 20%;
     font-size: 20px;
 }
 .btn.btn2{
